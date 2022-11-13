@@ -14,6 +14,12 @@ return require('packer').startup(function(use)
 	use 'ms-jpq/coq_nvim'
     use 'ms-jpq/coq.artifacts'
 
+	-- Telescope
+	use 'nvim-treesitter/nvim-treesitter'
+	use 'nvim-lua/plenary.nvim'
+	use {'nvim-telescope/telescope.nvim', tag = '0.1.0'}
+
+	-- LSP and OTHER's manage
 	use 'williamboman/mason.nvim' 
 
 	-- LSP
