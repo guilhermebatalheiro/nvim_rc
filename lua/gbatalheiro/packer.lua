@@ -11,8 +11,14 @@ return require('packer').startup(function(use)
 	-- Theme
 	use 'folke/tokyonight.nvim'
 
-	use 'ms-jpq/coq_nvim'
-    use 'ms-jpq/coq.artifacts'
+	-- Auto complete
+	use 'hrsh7th/cmp-nvim-lsp'
+	use 'hrsh7th/cmp-buffer'
+	use 'hrsh7th/cmp-path'
+	use 'hrsh7th/cmp-cmdline'
+	use 'hrsh7th/nvim-cmp'
+	use 'hrsh7th/cmp-vsnip'
+	use 'hrsh7th/vim-vsnip'
 
 	-- Telescope
 	use 'nvim-treesitter/nvim-treesitter'
